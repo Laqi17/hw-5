@@ -1,4 +1,4 @@
-public class Level {
+class Level {
     private int width;
     private int height;
 
@@ -26,7 +26,7 @@ class LevelLoader {
     }
 }
 
-class LevelLoaderTest {
+public class LevelLoaderTest {
     public static void main(String[] args) {
         //Level loaded
         try {
