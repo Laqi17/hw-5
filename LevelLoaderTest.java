@@ -43,3 +43,8 @@ class LevelLoaderTest {
         }
     }
 }
+
+class LevelTooBigException extends Exception {
+    LevelTooBigException(){}
+
+}
