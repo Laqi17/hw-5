@@ -42,6 +42,7 @@ public class LevelLoaderTest {
             System.out.println("Level too big");
         }
     }
+    
 }
 
 class LevelTooBigException extends Exception {
